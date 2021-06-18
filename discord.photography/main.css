@@ -136,12 +136,12 @@ h4 {
   border-color: rgb(7, 7, 7);
   border-style: solid;
   border-radius: 15px;
-  max-width: 70%;
+  max-width: 30%;
   border-width: 0px;
   padding: 2rem;
   background-color: rgb(247, 245, 245);
   margin-bottom: 10px;
-
+  display: flex;
 }
 
 
