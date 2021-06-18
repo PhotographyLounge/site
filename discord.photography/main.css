@@ -144,6 +144,11 @@ h4 {
   display: flex;
 }
 
+.parent {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
 
 .container2 {
   flex-wrap: wrap;
