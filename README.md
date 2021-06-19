@@ -46,13 +46,13 @@ Start the server
 
 Contributions are always welcome!
 
-See `contributing.md`for ways to get started.
+See `contributing.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
 ## Feedback
 
-If you have any feedback, please reach out to us at via Discord
+If you have any feedback, please reach out to us via Discord
 
 ## Authors
 
