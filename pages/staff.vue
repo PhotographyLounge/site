@@ -148,15 +148,4 @@ card {
 	padding: 2rem;
 	background-color: var(--highlight-color);
 }
-
-@media screen and (max-width: 425px) {
-	nav {
-		padding-top: 4rem;
-		margin: 0 1.8rem;
-	}
-
-	.container {
-		margin: 0 1.8rem;
-	}
-}
 </style>

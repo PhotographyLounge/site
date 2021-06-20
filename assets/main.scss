@@ -70,9 +70,32 @@ a {
 	}
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
 	nav {
 		max-width: 100%;
-		margin: 0 3.8rem;
+		margin: 0;
+	}
+
+	h1,
+	p {
+		text-align: center;
+		margin: 3rem 0;
+	}
+
+	#icon-container {
+		justify-content: space-evenly;
+		width: 12rem;
+		margin: 0 auto;
+	}
+
+	main {
+		margin: 0 1.8rem;
+		padding: 4rem 0;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	main {
+		padding: 4rem;
 	}
 }

@@ -1,102 +1,106 @@
 <template>
-	<article id="f42aabae-6590-47e4-a372-f3f4625bff6b" class="page sans">
-		<header>
-			<h1 class="page-title">V1-V2</h1>
-			<table class="properties">
-				<tbody>
-					<tr class="property-row property-row-created_time">
-						<th>
-							<span class="icon property-icon"
-								><svg
-									viewBox="0 0 14 14"
-									style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.4);flex-shrink:0;-webkit-backface-visibility:hidden"
-									class="typesCreatedAt"
+	<main>
+		<article id="f42aabae-6590-47e4-a372-f3f4625bff6b" class="page sans">
+			<header>
+				<h1 class="page-title">V1-V2</h1>
+				<table class="properties">
+					<tbody>
+						<tr class="property-row property-row-created_time">
+							<th>
+								<span class="icon property-icon"
+									><svg
+										viewBox="0 0 14 14"
+										style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.4);flex-shrink:0;-webkit-backface-visibility:hidden"
+										class="typesCreatedAt"
+									>
+										<path
+											d="M6.98643729,14.0000972 C5.19579566,14.0000972 3.40419152,13.3106896 2.04245843,11.9323606 C-0.681017475,9.21200555 -0.680780251,4.76029539 2.04293482,2.04012507 C4.76664406,-0.68004331 9.22427509,-0.68004331 11.9480135,2.04013479 C13.272481,3.36277455 14,5.1330091 14,6.99552762 C14,8.87640182 13.2721894,10.6285043 11.9480135,11.9509302 C10.5679344,13.3105924 8.77756503,14.0000972 6.98643729,14.0000972 Z M10.2705296,7.00913883 L10.2705296,8.46099754 L10.2705296,8.65543362 L10.076181,8.65543362 L8.6543739,8.65543362 L5.72059514,8.65543362 L5.52619796,8.65543362 L5.52619796,8.46099754 L5.52619796,5.52541044 L5.52619796,3.37946773 L5.52619796,3.18502193 L5.72059514,3.18502193 L7.17253164,3.18502193 L7.36692883,3.18502193 L7.36692883,3.37946773 L7.36692883,6.81467358 L10.076181,6.81467358 L10.2705296,6.81467358 L10.2705296,7.00913883 Z M12.1601539,6.99552762 C12.1601539,5.61697497 11.6190112,4.32597154 10.6393933,3.34769528 C8.63253764,1.34336744 5.35197452,1.34061603 3.34153136,3.33944106 C3.33868273,3.34219247 3.33607716,3.34494388 3.33322852,3.34769528 C1.32397148,5.35459953 1.32372842,8.63641682 3.33322852,10.6433794 C5.34295224,12.6504489 8.62968901,12.6504489 10.6393933,10.6433794 C11.6190112,9.66506426 12.1601539,8.37408027 12.1601539,6.99552762 Z"
+										></path></svg></span
+								>Created
+							</th>
+							<td><time>@Jun 16, 2021 2:38 PM</time></td>
+						</tr>
+						<tr class="property-row property-row-multi_select">
+							<th>
+								<span class="icon property-icon"
+									><svg
+										viewBox="0 0 14 14"
+										style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.4);flex-shrink:0;-webkit-backface-visibility:hidden"
+										class="typesMultipleSelect"
+									>
+										<path
+											d="M4,3 C4,2.447715 4.447715,2 5,2 L12,2 C12.5523,2 13,2.447716 13,3 C13,3.55228 12.5523,4 12,4 L5,4 C4.447715,4 4,3.55228 4,3 Z M4,7 C4,6.447715 4.447715,6 5,6 L12,6 C12.5523,6 13,6.447716 13,7 C13,7.55228 12.5523,8 12,8 L5,8 C4.447715,8 4,7.55228 4,7 Z M4,11 C4,10.447715 4.447715,10 5,10 L12,10 C12.5523,10 13,10.447716 13,11 C13,11.55228 12.5523,12 12,12 L5,12 C4.447715,12 4,11.55228 4,11 Z M2,4 C1.44771525,4 1,3.55228475 1,3 C1,2.44771525 1.44771525,2 2,2 C2.55228475,2 3,2.44771525 3,3 C3,3.55228475 2.55228475,4 2,4 Z M2,8 C1.44771525,8 1,7.55228475 1,7 C1,6.44771525 1.44771525,6 2,6 C2.55228475,6 3,6.44771525 3,7 C3,7.55228475 2.55228475,8 2,8 Z M2,12 C1.44771525,12 1,11.5522847 1,11 C1,10.4477153 1.44771525,10 2,10 C2.55228475,10 3,10.4477153 3,11 C3,11.5522847 2.55228475,12 2,12 Z"
+										></path></svg></span
+								>Tags
+							</th>
+							<td>
+								<span class="selected-value select-value-color-orange"
+									>New Version</span
 								>
-									<path
-										d="M6.98643729,14.0000972 C5.19579566,14.0000972 3.40419152,13.3106896 2.04245843,11.9323606 C-0.681017475,9.21200555 -0.680780251,4.76029539 2.04293482,2.04012507 C4.76664406,-0.68004331 9.22427509,-0.68004331 11.9480135,2.04013479 C13.272481,3.36277455 14,5.1330091 14,6.99552762 C14,8.87640182 13.2721894,10.6285043 11.9480135,11.9509302 C10.5679344,13.3105924 8.77756503,14.0000972 6.98643729,14.0000972 Z M10.2705296,7.00913883 L10.2705296,8.46099754 L10.2705296,8.65543362 L10.076181,8.65543362 L8.6543739,8.65543362 L5.72059514,8.65543362 L5.52619796,8.65543362 L5.52619796,8.46099754 L5.52619796,5.52541044 L5.52619796,3.37946773 L5.52619796,3.18502193 L5.72059514,3.18502193 L7.17253164,3.18502193 L7.36692883,3.18502193 L7.36692883,3.37946773 L7.36692883,6.81467358 L10.076181,6.81467358 L10.2705296,6.81467358 L10.2705296,7.00913883 Z M12.1601539,6.99552762 C12.1601539,5.61697497 11.6190112,4.32597154 10.6393933,3.34769528 C8.63253764,1.34336744 5.35197452,1.34061603 3.34153136,3.33944106 C3.33868273,3.34219247 3.33607716,3.34494388 3.33322852,3.34769528 C1.32397148,5.35459953 1.32372842,8.63641682 3.33322852,10.6433794 C5.34295224,12.6504489 8.62968901,12.6504489 10.6393933,10.6433794 C11.6190112,9.66506426 12.1601539,8.37408027 12.1601539,6.99552762 Z"
-									></path></svg></span
-							>Created
-						</th>
-						<td><time>@Jun 16, 2021 2:38 PM</time></td>
-					</tr>
-					<tr class="property-row property-row-multi_select">
-						<th>
-							<span class="icon property-icon"
-								><svg
-									viewBox="0 0 14 14"
-									style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.4);flex-shrink:0;-webkit-backface-visibility:hidden"
-									class="typesMultipleSelect"
-								>
-									<path
-										d="M4,3 C4,2.447715 4.447715,2 5,2 L12,2 C12.5523,2 13,2.447716 13,3 C13,3.55228 12.5523,4 12,4 L5,4 C4.447715,4 4,3.55228 4,3 Z M4,7 C4,6.447715 4.447715,6 5,6 L12,6 C12.5523,6 13,6.447716 13,7 C13,7.55228 12.5523,8 12,8 L5,8 C4.447715,8 4,7.55228 4,7 Z M4,11 C4,10.447715 4.447715,10 5,10 L12,10 C12.5523,10 13,10.447716 13,11 C13,11.55228 12.5523,12 12,12 L5,12 C4.447715,12 4,11.55228 4,11 Z M2,4 C1.44771525,4 1,3.55228475 1,3 C1,2.44771525 1.44771525,2 2,2 C2.55228475,2 3,2.44771525 3,3 C3,3.55228475 2.55228475,4 2,4 Z M2,8 C1.44771525,8 1,7.55228475 1,7 C1,6.44771525 1.44771525,6 2,6 C2.55228475,6 3,6.44771525 3,7 C3,7.55228475 2.55228475,8 2,8 Z M2,12 C1.44771525,12 1,11.5522847 1,11 C1,10.4477153 1.44771525,10 2,10 C2.55228475,10 3,10.4477153 3,11 C3,11.5522847 2.55228475,12 2,12 Z"
-									></path></svg></span
-							>Tags
-						</th>
-						<td>
-							<span class="selected-value select-value-color-orange"
-								>New Version</span
-							>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-		</header>
-		<div class="page-body">
-			<h2 id="15ea3ff2-f493-49bc-bc93-dd55c8104dad" class="">
-				🔖 Introducing Versions
-			</h2>
-			<p id="50d6a22d-d827-4c51-aa15-35608cb90888" class="">
-				In the past months, we&#x27;ve worked hard to continue innovating and
-				perfecting the community and how it works. Through custom bots, new
-				channels, websites, and improved infrastructure for Members as well as
-				Staff, we&#x27;ve continued to keep upping our game.
-			</p>
-			<p id="aadfd6ec-5c39-4722-b46a-a2d564235ae4" class=""></p>
-			<p id="3a01311d-0b62-4b3d-b227-7596a2197c00" class="">
-				June has been a bit of a dry patch as far as updating our community, but
-				that&#x27;s just because we&#x27;re in the middle of adding the biggest
-				updates yet! We&#x27;re very excited to introduce these in the near
-				future, but in the meantime we&#x27;ll be making community updates
-				prettier and more in-depth using Notion and our new website.
-			</p>
-			<p id="6c09f7a1-62de-4f24-b62b-7216894a0306" class=""></p>
-			<p id="49d21464-9804-4f45-a6e2-2a455685839d" class="">
-				Versions will also be used now to keep track of our progress and
-				community development. Larger updates that change how our community
-				functions will have their own whole number, and smaller updates that are
-				in between larger ones will be fractional amounts of these whole number
-				versions. Because we&#x27;re introducing this now and not when the
-				server was first created, we&#x27;ll be starting at V2. Everything that
-				happened previous to this point will be part of V1.
-			</p>
-			<p id="5961912d-053d-4ed4-b514-3967b717490f" class=""></p>
-			<p id="091a6242-8996-4230-9f45-09d75847d422" class="">
-				📰 What to expect soon:
-			</p>
-			<ul id="759a1413-0f8a-4e78-bdd4-922bb895193b" class="bulleted-list">
-				<li>
-					Brand new website at
-					<a href="https://discord.photography">https://discord.photography</a>
-				</li>
-			</ul>
-			<ul id="ab58b8f9-5e17-4e86-be9f-d9093ce1ffda" class="bulleted-list">
-				<li>Complete revamp and professionalized rebranding</li>
-			</ul>
-			<ul id="98a0292e-23af-4297-8d59-6acdf4d93a68" class="bulleted-list">
-				<li>
-					Versions and more in-depth server updates on Notion (soon on our
-					website)
-				</li>
-			</ul>
-			<ul id="83a3e014-0b36-4caf-aed5-6ba71a3ed4f6" class="bulleted-list">
-				<li>
-					A few things that are bigger than everything listed here that we
-					can&#x27;t talk about publicly yet.
-				</li>
-			</ul>
-			<p id="e729f47b-6c5b-4d30-afb3-32d4e0d4e467" class=""></p>
-		</div>
-	</article>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</header>
+			<div class="page-body">
+				<h2 id="15ea3ff2-f493-49bc-bc93-dd55c8104dad" class="">
+					🔖 Introducing Versions
+				</h2>
+				<p id="50d6a22d-d827-4c51-aa15-35608cb90888" class="">
+					In the past months, we&#x27;ve worked hard to continue innovating and
+					perfecting the community and how it works. Through custom bots, new
+					channels, websites, and improved infrastructure for Members as well as
+					Staff, we&#x27;ve continued to keep upping our game.
+				</p>
+				<p id="aadfd6ec-5c39-4722-b46a-a2d564235ae4" class=""></p>
+				<p id="3a01311d-0b62-4b3d-b227-7596a2197c00" class="">
+					June has been a bit of a dry patch as far as updating our community,
+					but that&#x27;s just because we&#x27;re in the middle of adding the
+					biggest updates yet! We&#x27;re very excited to introduce these in the
+					near future, but in the meantime we&#x27;ll be making community
+					updates prettier and more in-depth using Notion and our new website.
+				</p>
+				<p id="6c09f7a1-62de-4f24-b62b-7216894a0306" class=""></p>
+				<p id="49d21464-9804-4f45-a6e2-2a455685839d" class="">
+					Versions will also be used now to keep track of our progress and
+					community development. Larger updates that change how our community
+					functions will have their own whole number, and smaller updates that
+					are in between larger ones will be fractional amounts of these whole
+					number versions. Because we&#x27;re introducing this now and not when
+					the server was first created, we&#x27;ll be starting at V2. Everything
+					that happened previous to this point will be part of V1.
+				</p>
+				<p id="5961912d-053d-4ed4-b514-3967b717490f" class=""></p>
+				<p id="091a6242-8996-4230-9f45-09d75847d422" class="">
+					📰 What to expect soon:
+				</p>
+				<ul id="759a1413-0f8a-4e78-bdd4-922bb895193b" class="bulleted-list">
+					<li>
+						Brand new website at
+						<a href="https://discord.photography"
+							>https://discord.photography</a
+						>
+					</li>
+				</ul>
+				<ul id="ab58b8f9-5e17-4e86-be9f-d9093ce1ffda" class="bulleted-list">
+					<li>Complete revamp and professionalized rebranding</li>
+				</ul>
+				<ul id="98a0292e-23af-4297-8d59-6acdf4d93a68" class="bulleted-list">
+					<li>
+						Versions and more in-depth server updates on Notion (soon on our
+						website)
+					</li>
+				</ul>
+				<ul id="83a3e014-0b36-4caf-aed5-6ba71a3ed4f6" class="bulleted-list">
+					<li>
+						A few things that are bigger than everything listed here that we
+						can&#x27;t talk about publicly yet.
+					</li>
+				</ul>
+				<p id="e729f47b-6c5b-4d30-afb3-32d4e0d4e467" class=""></p>
+			</div>
+		</article>
+	</main>
 </template>
 
 <script>

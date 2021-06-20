@@ -60,24 +60,4 @@ p {
 	justify-content: space-between;
 	width: 8rem;
 }
-
-@media screen and (max-width: 425px) {
-	h1,
-	p {
-		text-align: center;
-		margin: 3rem 1.8rem;
-	}
-
-	#icon-container {
-		justify-content: space-evenly;
-		width: 12rem;
-		margin: 0 auto;
-	}
-}
-
-@media screen and (min-width: 425px) {
-	main {
-		padding: 4rem;
-	}
-}
 </style>
