@@ -9,11 +9,10 @@
 				type="checkbox"
 				id="theme"
 				@click="
-					$colorMode.preference =
-						$colorMode.preference == 'light' ? 'dark' : 'light'
+					$colorMode.preference = $colorMode.value == 'light' ? 'dark' : 'light'
 				"
 			>
-				{{ $colorMode.preference == 'light' ? '☀️' : '🌙' }}
+				{{ $colorMode.value == 'light' ? '☀️' : '🌙' }}
 			</button>
 		</li>
 	</nav>

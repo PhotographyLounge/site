@@ -22,4 +22,7 @@ export default {
 			},
 		],
 	},
+	colorMode: {
+		fallback: 'light',
+	},
 };
