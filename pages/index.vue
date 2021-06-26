@@ -1,7 +1,5 @@
 <template>
-	<main>
-		<navbar />
-
+	<div>
 		<h1>Photography Lounge</h1>
 
 		<p>
@@ -35,10 +33,10 @@
 				<i class="fas fa-crown fa-lg"></i>
 			</a>
 		</div>
-	</main>
+	</div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 h1,
 p {
 	margin: 3rem 0;

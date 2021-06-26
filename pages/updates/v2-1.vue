@@ -49,6 +49,7 @@
 
 <script>
 export default {
+	layout: 'no-nav',
 	colorMode: 'light',
 };
 </script>

@@ -1,7 +1,5 @@
 <template>
-	<main>
-		<navbar />
-
+	<div>
 		<h1>Staff</h1>
 		<p>Our fantastic team members</p>
 
@@ -110,10 +108,10 @@
 				<p class="bio">He needs to write his bio.</p>
 			</card>
 		</div>
-	</main>
+	</div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .profile {
 	font-size: 1.2rem;
 }
