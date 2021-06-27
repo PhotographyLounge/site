@@ -7,6 +7,10 @@
 		"moduleResolution": "node",
 		"target": "es5",
 		"sourceMap": true,
-		"allowJs": true
+		"allowJs": true,
+		"types": [
+			"@nuxt/types",
+			"@nuxt/content"
+		]
 	}
 }

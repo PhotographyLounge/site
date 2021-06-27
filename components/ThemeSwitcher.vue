@@ -14,17 +14,6 @@
 				:class="$colorMode.preference === 'light' ? 'show' : 'hide'"
 			/>
 		</span>
-		<!-- <transition name="from-bottom-to-bottom" mode="out-in">
-			<span v-if="$colorMode.preference === 'dark'" key="dark">
-				Dark
-			</span>
-			<span v-if="$colorMode.preference === 'system'" key="system">
-				System
-			</span>
-			<span v-else-if="$colorMode.preference === 'light'" key="light">
-				Light
-			</span>
-		</transition> -->
 	</button>
 </template>
 
