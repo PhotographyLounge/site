@@ -64,6 +64,7 @@ button {
 	height: 1.4em;
 	padding: 0;
 	display: flex;
+	cursor: pointer;
 }
 
 .icon {

@@ -7,12 +7,3 @@
 		<li><ThemeSwitcher /></li>
 	</nav>
 </template>
-
-<style lang="scss">
-#theme {
-	cursor: pointer;
-	color: var(--primary-color);
-	background: transparent;
-	border: none;
-}
-</style>
