@@ -1,7 +1,7 @@
 export default {
 	css: ['@/assets/main.scss'],
 	components: true,
-	buildModules: ['@nuxtjs/color-mode'],
+	buildModules: ['@nuxtjs/color-mode', '@nuxtjs/svg'],
 	head: {
 		title: 'Photography Lounge',
 		meta: [
