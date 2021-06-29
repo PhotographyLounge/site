@@ -4,112 +4,46 @@
 		<p>Our fantastic team members</p>
 
 		<div class="container" id="staff">
-			<article id="Aimbot">
+			<article v-for="member in staff" v-bind:key="member.slug">
 				<a
 					class="profile"
-					href="https://discordapp.com/users/354249753158221836/"
+					:href="'https://discord.com/users/' + member.id"
 					target="_blank"
 					rel="noreferrer"
 				>
-					<i class="fas fa-shield-alt" />
-					Aimbot
+					<i
+						v-for="badge in member.badges"
+						:key="badge"
+						class="badge"
+						:class="
+							badge === 'moderator'
+								? 'fas fa-shield-alt'
+								: badge === 'developer'
+								? 'fas fa-terminal'
+								: ''
+						"
+					/>
+					{{ member.name }}
 				</a>
-				<p class="bio">He needs to write his bio.</p>
-			</article>
-			<article id="Dad">
-				<a
-					class="profile"
-					href="https://discordapp.com/users/331131824052895746/"
-					target="_blank"
-					rel="noreferrer"
-				>
-					<i class="fas fa-shield-alt" />
-					dadofmanyhobbies
-				</a>
-				<p class="bio">He needs to write his bio.</p>
-			</article>
-			<article id="Dessy">
-				<a
-					class="profile"
-					href="https://discordapp.com/users/345276559038611466/"
-					target="_blank"
-					rel="noreferrer"
-				>
-					<i class="fas fa-terminal" />
-					<i class="fas fa-shield-alt" />
-					Dessyboy
-				</a>
-				<p class="bio">IT Student from Europe which is always way too busy.</p>
-			</article>
-			<article id="Hyuno">
-				<a
-					class="profile"
-					href="https://discordapp.com/users/345276559038611466/"
-					target="_blank"
-					rel="noreferrer"
-				>
-					<i class="fas fa-shield-alt" />
-					Hyuno
-				</a>
-				<p class="bio">He needs to write his bio.</p>
-			</article>
-			<article id="Jake">
-				<a
-					class="profile"
-					href="https://discordapp.com/users/354249753158221836/"
-					target="_blank"
-					rel="noreferrer"
-				>
-					<i class="fas fa-shield-alt" />
-					Jake
-				</a>
-				<p class="bio">
-					Hailing from Poland Jake is a great moderator, content creator, and
-					photographer. Also has an adorable doge emote collection.
-				</p>
-			</article>
-			<article id="lost">
-				<a
-					class="profile"
-					href="https://discordapp.com/users/126251022002814976/"
-					target="_blank"
-					rel="noreferrer"
-				>
-					<i class="fas fa-terminal" />
-					Lost
-				</a>
-				<p class="bio">Developer, Photographer, and Coding Community Owner.</p>
-			</article>
-			<article id="MattA">
-				<a
-					class="profile"
-					href="https://discordapp.com/users/366652352125599744/"
-					target="_blank"
-					rel="noreferrer"
-				>
-					<i class="fas fa-terminal" />
-					MattA
-				</a>
-				<p class="bio">
-					Student web developer from the UK that spends way too long on Discord.
-					Loves creating bots to help manage communities.
-				</p>
-			</article>
-			<article id="Rey">
-				<a
-					class="profile"
-					href="https://discordapp.com/users/345276559038611466/"
-					target="_blank"
-					rel="noreferrer"
-				>
-					<i class="fas fa-shield-alt" />
-					Rey
-				</a>
-				<p class="bio">He needs to write his bio.</p>
+				<p class="bio">{{ member.bio }}</p>
 			</article>
 		</div>
 	</div>
 </template>
+
+<script>
+export default {
+	async asyncData({ $content, params }) {
+		const staff = await $content('staff')
+			.sortBy('slug')
+			.fetch();
+
+		return {
+			staff,
+		};
+	},
+};
+</script>
 
 <style lang="scss" scoped>
 .profile {
@@ -129,6 +63,10 @@
 
 	grid-auto-rows: min-content;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.badge {
+	margin: 0.2rem;
 }
 
 article {
