@@ -1,4 +1,5 @@
 export default {
+	target: 'static',
 	css: ['@/assets/main.scss'],
 	components: true,
 	buildModules: ['@nuxtjs/color-mode', '@nuxtjs/svg'],
