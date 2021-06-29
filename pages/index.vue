@@ -9,16 +9,16 @@
 		</p>
 
 		<div id="icon-container">
+			<a href="https://discord.gg/photography" target="_self" rel="noreferrer">
+				<i class="fab fa-discord fa-lg"></i>
+			</a>
+
 			<a
 				href="https://twitter.com/photographydisc"
 				target="_self"
 				rel="noreferrer"
 			>
 				<i class="fab fa-twitter fa-lg"></i>
-			</a>
-
-			<a href="https://discord.gg/photography" target="_self" rel="noreferrer">
-				<i class="fab fa-discord fa-lg"></i>
 			</a>
 
 			<a
@@ -29,8 +29,12 @@
 				<i class="fab fa-reddit fa-lg"></i>
 			</a>
 
-			<a href="https://vagabondit.surge.sh" target="_self" rel="noreferrer">
-				<i class="fas fa-crown fa-lg"></i>
+			<a
+				href="https://github.com/PhotographyLounge/site/"
+				target="_self"
+				rel="noreferrer"
+			>
+				<i class="fab fa-github fa-lg"></i>
 			</a>
 		</div>
 	</div>
