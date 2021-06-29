@@ -34,11 +34,7 @@ export default {
 	methods: {
 		setCurrentTheme() {
 			this.$colorMode.preference =
-				this.$colorMode.preference === 'system'
-					? 'light'
-					: this.$colorMode.preference === 'light'
-					? 'dark'
-					: 'system';
+				this.$colorMode.value === 'light' ? 'dark' : 'light';
 		},
 	},
 };
@@ -70,28 +66,10 @@ button {
 }
 
 .show {
-	animation: 200ms show-icon 300ms forwards;
+	opacity: 1;
 }
 
 .hide {
-	animation: hide-icon 300ms forwards;
-}
-
-@keyframes show-icon {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
-}
-
-@keyframes hide-icon {
-	from {
-		opacity: 1;
-	}
-	to {
-		opacity: 0;
-	}
+	opacity: 0;
 }
 </style>
