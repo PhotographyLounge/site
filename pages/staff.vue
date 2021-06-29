@@ -4,7 +4,7 @@
 		<p>Our fantastic team members</p>
 
 		<div class="container" id="staff">
-			<card id="Aimbot">
+			<article id="Aimbot">
 				<a
 					class="profile"
 					href="https://discordapp.com/users/354249753158221836/"
@@ -15,8 +15,8 @@
 					Aimbot
 				</a>
 				<p class="bio">He needs to write his bio.</p>
-			</card>
-			<card id="Dad">
+			</article>
+			<article id="Dad">
 				<a
 					class="profile"
 					href="https://discordapp.com/users/331131824052895746/"
@@ -27,8 +27,8 @@
 					dadofmanyhobbies
 				</a>
 				<p class="bio">He needs to write his bio.</p>
-			</card>
-			<card id="Dessy">
+			</article>
+			<article id="Dessy">
 				<a
 					class="profile"
 					href="https://discordapp.com/users/345276559038611466/"
@@ -40,8 +40,8 @@
 					Dessyboy
 				</a>
 				<p class="bio">IT Student from Europe which is always way too busy.</p>
-			</card>
-			<card id="Hyuno">
+			</article>
+			<article id="Hyuno">
 				<a
 					class="profile"
 					href="https://discordapp.com/users/345276559038611466/"
@@ -52,8 +52,8 @@
 					Hyuno
 				</a>
 				<p class="bio">He needs to write his bio.</p>
-			</card>
-			<card id="Jake">
+			</article>
+			<article id="Jake">
 				<a
 					class="profile"
 					href="https://discordapp.com/users/354249753158221836/"
@@ -67,8 +67,8 @@
 					Hailing from Poland Jake is a great moderator, content creator, and
 					photographer. Also has an adorable doge emote collection.
 				</p>
-			</card>
-			<card id="lost">
+			</article>
+			<article id="lost">
 				<a
 					class="profile"
 					href="https://discordapp.com/users/126251022002814976/"
@@ -79,8 +79,8 @@
 					Lost
 				</a>
 				<p class="bio">Developer, Photographer, and Coding Community Owner.</p>
-			</card>
-			<card id="MattA">
+			</article>
+			<article id="MattA">
 				<a
 					class="profile"
 					href="https://discordapp.com/users/366652352125599744/"
@@ -94,8 +94,8 @@
 					Student web developer from the UK that spends way too long on Discord.
 					Loves creating bots to help manage communities.
 				</p>
-			</card>
-			<card id="Rey">
+			</article>
+			<article id="Rey">
 				<a
 					class="profile"
 					href="https://discordapp.com/users/345276559038611466/"
@@ -106,7 +106,7 @@
 					Rey
 				</a>
 				<p class="bio">He needs to write his bio.</p>
-			</card>
+			</article>
 		</div>
 	</div>
 </template>
@@ -128,18 +128,10 @@
 	gap: 1rem;
 
 	grid-auto-rows: min-content;
-	grid-template-columns: repeat(1, 1fr);
-
-	@media screen and (min-width: 768px) {
-		grid-template-columns: repeat(2, 280px);
-	}
-
-	@media screen and (min-width: 1024px) {
-		grid-template-columns: repeat(3, 280px);
-	}
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-card {
+article {
 	border-style: solid;
 	border-radius: 15px;
 	border-width: 0px;
