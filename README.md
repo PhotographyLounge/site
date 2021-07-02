@@ -57,5 +57,5 @@ If you have any feedback, please reach out to us via Discord
 ## Authors
 
 - [@MattA-Official](https://www.github.com/MattA-Official) - MattA#6011
-- [@Vagabondit](https://www.github.com/Vagabondit) - Vagabond#0001
+- [@RealVagabond](https://www.github.com/RealVagabond) - Vagabond#0001
 - [@lostdesign](https://www.github.com/lostdesign) - lost#0001
