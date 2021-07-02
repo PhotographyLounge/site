@@ -11,6 +11,8 @@ The website for [discord.gg/photography](https://discord.com/invite/photography)
 ### Coming Soon
 
 - Personalised portfolios
+- Drag & Drop accessibility 
+- Custom Domain support
 
 ## Development
 
