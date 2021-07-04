@@ -5,7 +5,7 @@
 			<li><NuxtLink to="/updates">Updates</NuxtLink></li>
 			<li><NuxtLink to="/portfolios">Portfolios</NuxtLink></li>
 			<li><NuxtLink to="/staff">Staff</NuxtLink></li>
-			<ThemeSwitcher />
 		</nav>
+		<ThemeSwitcher />
 	</header>
 </template>
