@@ -3,7 +3,7 @@
 		<h1>📸 Photography Lounge Updates</h1>
 		<li v-for="article in articles" v-bind:key="article.slug">
 			<NuxtLink :to="{ path: article.slug }" append>
-				{{ article.slug }} {{ article.title }}
+				v{{ article.version }} {{ article.title }}
 			</NuxtLink>
 			- {{ article.type }}
 		</li>
@@ -13,7 +13,9 @@
 <script>
 export default {
 	async asyncData({ $content }) {
-		const articles = await $content('updates').fetch();
+		const articles = await $content('updates')
+			.sortBy('created')
+			.fetch();
 
 		return {
 			articles,
