@@ -26,8 +26,5 @@ export default {
 	},
 	colorMode: {
 		fallback: 'light',
-	},
-	router: {
-    		base: '/site/'
-  	}
+	}
 };
