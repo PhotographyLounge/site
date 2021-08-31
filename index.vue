@@ -5,7 +5,7 @@
 		<p>
 			Discord Partnered Community striving to create a welcoming and inclusive
 			space for Photographers to share their work, get thoughtfully critiqued, and have a great
-			time. 
+			time.
 		</p>
 
 		<div id="icon-container">
